@@ -31,14 +31,14 @@ if (number > 10 && number < 20) {
     console.log("Число не входить в діапазон від 10 до 20");
 }
 
-let name = "Anna";
+let nameAnna = "Anna";
 let email = "anna@example.com";
 let password = "secret123";
 
 let atIndex = email.indexOf("@");
 let dotIndex = email.lastIndexOf(".");
 
-if (name.length >= 3 &&
+if (nameAnna.length >= 3 &&
     atIndex > 0 &&
     dotIndex > atIndex + 1 &&
     password.length >= 6) {
