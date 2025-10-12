@@ -16,4 +16,4 @@ switch (hello) {
     default:
         console.log('Invalid bad words!');
 }
-console.log(bober); // 500
+console.log(bober);
